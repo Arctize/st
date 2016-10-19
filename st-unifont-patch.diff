@@ -7,18 +7,10 @@ index b41747f..78a6bdf 100644
   * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
   */
 -static char font[] = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
-+static char font[] = "unifont:pixelsize=16:scalable=false";
++static char font[] = "unifont:pixelsize=16";
  static int borderpx = 2;
  
  /*
-@@ -438,7 +438,5 @@ static uint selmasks[] = {
-  * of single wide characters.
-  */
- static char ascii_printable[] =
--	" !\"#$%&'()*+,-./0123456789:;<=>?"
--	"@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_"
--	"`abcdefghijklmnopqrstuvwxyz{|}~";
-+	"a";
  
 diff --git a/st.c b/st.c
 index 2594c65..6f4ec03 100644
