@@ -7,7 +7,7 @@ index 32d107d..2f9807a 100644
   * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
   */
 -static char font[] = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
-+static char font[] = "Ubuntu Mono:pixelsize=12:antialias=true:autohint=true";
++static char font[] = "Ubuntu Mono:size=12:antialias=true:autohint=true";
  static int borderpx = 2;
  
  /*
